@@ -1,5 +1,6 @@
 import pandas
 
-data = pandas.read_csv('car_prices.csv')
-print(data['model'])
+dt = pandas.read_csv('car_prices.csv')
 
+print(dt.head())
+print(len(dt))
